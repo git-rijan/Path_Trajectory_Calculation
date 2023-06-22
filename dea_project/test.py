@@ -10,8 +10,8 @@ dict_for_NN=path(force_dict,1.6,4,4) #mass =1, l=,b=
 
 
 # saving to pickle file
-# with open('dict_for_NN_4_one_output_pts.pickle', 'wb') as f:
-#     pickle.dump(dict_for_NN, f)
+ with open('dict_for_NN_4_one_output_pts.pickle', 'wb') as f:
+     pickle.dump(dict_for_NN, f)
 
 
 

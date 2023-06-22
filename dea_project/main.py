@@ -16,8 +16,8 @@ force_dict=setup(l,b,del_x,del_y,r,vel_left,vel_right,P,loc)
 # print(force_dict)
 
 # saving force _dict long nights run so
-# import pickle
-# with open('force_dict_4.pickle','wb') as f:
-#     pickle.dump(force_dict,f)
+import pickle
+with open('force_dict_4.pickle','wb') as f:
+     pickle.dump(force_dict,f)
 
 
